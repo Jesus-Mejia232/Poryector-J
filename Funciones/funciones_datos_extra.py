@@ -21,3 +21,5 @@ def frase2(nombre, apellido, adjetivo="inteligente"):
 frase_em_voz_alta = frase2("Jesus", "Edgardo", adjetivo="Fuerte")
 # Se puede cambiar solamente poniendo el argumento, sin necesidad de "Invocar" al parámetro
 print(frase_em_voz_alta)
+
+#Esta es la función lambda 
