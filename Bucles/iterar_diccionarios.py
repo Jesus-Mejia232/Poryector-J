@@ -14,3 +14,4 @@ for datos in diccionario.items():  # Con el punto item se puede iterar el diccio
     clave = datos[0]
     valor = datos[1]
     print(f"La clave es: {clave}, y el valor es: {valor}")
+# Probando
