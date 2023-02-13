@@ -44,5 +44,4 @@ else:
     # Los else dentro de los for, se van a ejecutar siempre
     print("El bucle terminó.")
 
-
 # Todo lo anteior funciona exactamente igual para tuplas, lista y conjuntos
