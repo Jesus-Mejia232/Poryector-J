@@ -1,6 +1,5 @@
-def saludar(name):
+def hola(name):
     name = name.lower()
-
     return f"Hola {name} Cómo estás"
 
 
