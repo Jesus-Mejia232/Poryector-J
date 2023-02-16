@@ -1,0 +1,19 @@
+"""Que es un modulo? Un módulo es cualquier archivo .py, le llamamos modulos porque de un modulo, podemos crear otro
+podemos cambiar las rutas, podemos formar paquetes. 
+
+Podemo crear funciones en un modulo para no tener que estar 
+creando esa funcion siempre, asi que, desde otro modulo nuevo, llamo a ese modulo anterior, es como la forma 
+de manejar el programa en partes y usarlo y manejarlo como querramos.
+
+Hay tres tipos de modulos en python:
+
+1)Los modulos integrados de python/ Python modules(Creados en "C"(otro lenguaje de programacion, de menor rango que python))
+2)Third party modules / Los modulos de terceros (Alguien crea un modulo con unas funciones especificas que a mi me sirven, 
+me descargo el modulo y lo uso)
+3)Own modules / modulos propios (son modulos que creamos nosotros mismos)
+NOTA: Los ultimos dos modulos son basicamente lo mismo
+"""
+# modulo son todos los archivos .py
+
+# Esto nos sirve para poder usar funciones y librerías de terceros, en nuestro código
+
