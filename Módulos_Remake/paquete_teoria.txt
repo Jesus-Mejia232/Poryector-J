@@ -1,0 +1,14 @@
+Que es un paquete?
+Un paquete es una carpeta con muchos archivos(modulos) Python
+
+No siempre vamos a necesitar solo un modulo, en la gran mayoria de veces vamos a necesitar multiples 
+Modulos, así que los vamos a llamar dentro de un paquete
+Como lo hacemos 
+
+Para empezar, como python detecta que una carpeta es un modulo?
+Python detecta que la carpeta que tiene multiples modulos es un paquete, cuando el paquete tiene un archivo 
+Que se llama "__init__.py" al python leer ese archivo dentro de la carpeta automaticamente entiende que se trata de 
+paquete 
+
+NOTE_IMPORTANTE : Cuando se crea un archivo txt, asegurar de que no tener un nombre similar en algun paquete o modulo
+porque al importar el paquete o modulo habrá conflicto
