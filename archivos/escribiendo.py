@@ -6,5 +6,5 @@ with open("archivos\\Jesus.txt", "w", encoding="UTF-8") as archivo:
     # Pero con el permiso "w" si no encuentra el archivo, lo crea
 
 # Escribiendo con "writeline"
-archivo.writelines("Hola jefe de jefes, como andás?")
+archivo.writelines("Hola jefe de jefes, como andás?","Jesus")
 print(archivo)

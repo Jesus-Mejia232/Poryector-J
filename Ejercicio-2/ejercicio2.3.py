@@ -15,4 +15,3 @@ resultado = fibonacci(21)
 print(resultado)
 # Los diccionarios son tipos de lista, como "Clave" "Valor",
 # Ponemos la el nombre del valor y luego el valor
-#
