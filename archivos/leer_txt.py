@@ -1,9 +1,9 @@
 # Usando Open para abrir un archivo con una codificación universal (UFT-8)
 archivo = open("archivos\\Jesus.txt", encoding="UTF-8")
 # De codificacion a la hora de imprimir en pantalla, errores tales como mostrar letras raras cuando llevan tilde"
-# A ese erro se le llama problema de codificación
+# A ese error se le llama problema de codificación
 
-# archivo = archivo_sin_leer.read()
+# archivo = archivo.read()
 # Como hacer si lo que queremos es leer solamente una linea
 # No muestra nada porque no lo hemos cerrado, cuando un archivo se lee, si
 # linea1 = archivo_sin_leer.readlines()
@@ -12,7 +12,7 @@ archivo = open("archivos\\Jesus.txt", encoding="UTF-8")
 
 
 # Leer archivo completo:
-# Archivo = archivo_sin_leer.read()
+# Archivo = archivo.read()
 
 # Leer el archivo linea por linea con:
 # ineas = archivo.readlines()

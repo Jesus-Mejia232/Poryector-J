@@ -1,0 +1,6 @@
+Que es un archivo?
+Un archivo es un contenedor de información, también tienen un formato (png,txt,wav,mp4)
+
+Los achivos se componen de dos cosas(En cuanto a nombre )
+Del nombre y del formato 
+
