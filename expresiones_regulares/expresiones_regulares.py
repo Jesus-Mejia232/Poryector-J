@@ -2,7 +2,7 @@ import re
 
 texto = """Siempre. creando una cadena de texto, esto es simplente un ejemplo, para poder crear (1 linea) 
 Esta es la siguiente linea de texto de la cadena 2256565 linea 
-Esta es la tercer linea(3 linea) de texto 5151 25 51451que ya Está lista     """
+Esta es la tercer linea(3 linea) de texto  ababaabababbbb ab abababab bababa5151 25 51451que ya Está lista     """
 
 # Haciendo la parte simple
 # resultado = re.search("Esta", texto, flags=re.IGNORECASE) "flags=re.IGNORECASE" sirve para decirle a la funcion que
@@ -58,9 +58,25 @@ resultado = re.findall(r"\d{3}", texto)
 # De veces "{n,m}"
 # Traduciendo esto, le estamos pidiendo que nos busque todos los datos en los que,
 resultado = re.findall(r"\d{1,4}", texto)
-# Hayan, 1, 2 , 3 o 4 numeros juntos
+# Hayan grupos de , 1, 2 , 3 o 4, numeros juntos
 
-# "|" Busca una cosa o la otra
+
+# "{n,m}" Buscando con grupos
+# Los parametros dentro de los corchetes, sin poner el "ab" entre parentesis, esos
+resultado = re.findall(r"ab{2,4}", texto)
+# Solamente estarian aplicando para "b" y no para "a"
+
+
+# "{n,m}" Con los parentesis indicamos que los parametros que están entre corchetes aplican para "ab" es decir, los
+# Dos juntos
+resultado = re.findall(r"(ab){2,4}", texto)
+# resultado = re.findall(r"(ab){2}", texto) Aqui se le está diciendo que me devuelva en pantalla un "ab" por cada
+# Dos "ab" que encuentre en la variable, si queremos que nos devuelva todos los que encuentre, tenemos que poner
+# Estos corchetes:
+# resultado = re.findall(r"[ab]{2,4}", texto), con esto le decimos que cada vez que encuentre dos veces cada una "ab"
+
+
+# "|" Busca una cosa o la otra, sirve para poner varios parametros
 resultado = re.findall(r"\d{2,4} | hola", texto)
 print(resultado)
 # DATO importante: comentar las lienas de codigo innecesarias ayuda a que el programa sea más rapido
